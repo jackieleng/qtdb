@@ -16,4 +16,6 @@ def set_trace():
     # custom next to get outside of function scope
     debugger.do_next(None)  # run the next command
     users_frame = sys._getframe().f_back  # frame where the user invoked `pyqt_set_trace()`
-    debugger.interaction(users_frame, None)
+
+    # debugger.interaction(users_frame, None)
+    debugger.set_trace(users_frame)  # Using this, it is possible to step through using 'next':
