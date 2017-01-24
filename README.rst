@@ -7,3 +7,7 @@ in a Python package for convenience, and includes *one* minor change (calling
 Install::
 
     $ sudo pip install git+https://github.com/jackieleng/qtdb.git
+
+Set a breakpoint::
+
+    import qtdb; qtdb.set_trace()
