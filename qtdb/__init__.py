@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 """
 pdb for pyqt4
+
+Most of this is from: http://stackoverflow.com/questions/1736015/debugging-a-pyqt4-app
 """
 
 
